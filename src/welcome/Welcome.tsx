@@ -1,10 +1,11 @@
 import React from "react"
-import FormTitle from "../common/components/FormTitle"
+import "./welcome.css"
 
 export default function Welcome() {
     return (
-        <div>
-            <FormTitle>Mascotas - Programaci&oacute;n Avanzada UTN</FormTitle>
+        <div className="container">
+            <h1>TA TE TI</h1>
+            <h2>Game</h2>
         </div>
     )
 }

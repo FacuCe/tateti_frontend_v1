@@ -23,10 +23,10 @@ export default function Login(props: RouteComponentProps) {
     const loginClick = async () => {
         errorHandler.cleanRestValidations()
         if (!userName) {
-            errorHandler.addError("login", "No puede estar vacío")
+            errorHandler.addError("login", "Cant be blank")
         }
         if (!password) {
-            errorHandler.addError("password", "No puede estar vacío")
+            errorHandler.addError("password", "Cant be blank")
         }
         if (errorHandler.hasErrors()) {
             return

@@ -1,10 +1,9 @@
 import React from "react"
 import { HashRouter, Route } from "react-router-dom"
 import LoggedInRoute from "../common/components/LoggedInRoute"
+import NewGame from "../games/Games"
 import Info from "../info/Info"
-import NewPet from "../pets/NewPet"
-import Pets from "../pets/Pets"
-import Profile from "../profile/Profile"
+import History from "../history/History"
 import Login from "../user/Login"
 import Password from "../user/Password"
 import Register from "../user/Register"
@@ -35,10 +34,8 @@ export default function App() {
               <Route path="/newUser" component={Register} />
               <LoggedInRoute path="/info" component={Info} />
               <LoggedInRoute path="/password" component={Password} />
-              <LoggedInRoute path="/profile" component={Profile} />
-              <LoggedInRoute path="/pets" component={Pets} />
-              <LoggedInRoute path="/editPet" component={NewPet} />
-              <LoggedInRoute path="/editPet/:id" component={NewPet} />
+              <LoggedInRoute path="/history" component={History} />
+              <LoggedInRoute path="/games" component={NewGame}/>
             </td>
           </tr>
         </tbody>

@@ -55,7 +55,7 @@ export default function Register(props: RouteComponentProps) {
 
   return (
     <GlobalContent>
-      <FormTitle>Registrar Usuario</FormTitle>
+      <FormTitle>Register</FormTitle>
 
       <Form>
         <FormInput

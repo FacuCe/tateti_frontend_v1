@@ -1,0 +1,33 @@
+.board {
+    height: 450px;
+    width: 450px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+}
+
+.buttonStyle {
+    font-size: 100px;
+}
+
+.findGameButton {
+    height: 60px;
+    width: 110px;
+}
+
+.info {
+    width: 450px;
+    height: 30px;
+}
+
+.caption {
+    caption-side: top;
+}
+
+.info-item {
+    border: black 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+}

@@ -2,6 +2,11 @@
   height: 100%;
   padding-top: 20px;
   padding-right: 30px;
+
+  background: #DBF3FF;
+  background: -moz-linear-gradient(top, #DBF3FF 0%, #A4BAEB 100%);
+  background: -webkit-linear-gradient(top, #DBF3FF 0%, #A4BAEB 100%);
+  background: linear-gradient(to bottom, #DBF3FF 0%, #A4BAEB 100%);
 }
 
 .menu_section {

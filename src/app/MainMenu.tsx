@@ -14,11 +14,16 @@ export default function MainMenu() {
       <NavLink to="/password" className="menu_item btn btn-sm btn-link">Password</NavLink><br />
       <NavLink to="" onClick={logoutApp} className="menu_item btn btn-sm btn-link">Logout</NavLink><br />
 
-      <h6 className="menu_section">Perfil</h6>
-      <NavLink to="/profile" className="menu_item btn btn-sm btn-link">Editar</NavLink><br />
+      <h6 className="menu_section">Played Games</h6>
+      <NavLink to="/history" className="menu_item btn btn-sm btn-link">History</NavLink><br />
 
-      <h6 className="menu_section">Mascotas</h6>
-      <NavLink to="/pets" className="menu_item btn btn-sm btn-link">Lista</NavLink><br />
+      <h6 className="menu_section">Games</h6>
+      <NavLink to="/games" className="menu_item btn btn-sm btn-link">Play</NavLink><br />
     </div>
   )
 }
+
+// BORRAR
+
+// <h6 className="menu_section">Mascotas</h6>
+// <NavLink to="/pets" className="menu_item btn btn-sm btn-link">Lista</NavLink><br />

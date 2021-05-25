@@ -1,0 +1,15 @@
+.history-table {
+    width: 1000px;
+}
+
+.history-thead {
+    font-weight: bold;
+}
+
+.history-td {
+    border: black 1px solid;
+    border-collapse: collapse;
+
+    text-align: center;
+    padding: 2px 5px;
+}
