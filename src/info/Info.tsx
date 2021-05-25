@@ -22,10 +22,6 @@ export default function StateInfo() {
                     <input className="form-control" id="name" value={user?.name} disabled />
                 </div>
                 <div className="form-group">
-                    <label>Permisos</label>
-                    <input className="form-control" id="name" value={user?.permissions} disabled />
-                </div>
-                <div className="form-group">
                     <label>Token</label>
                     <input className="form-control" id="name" value={token} disabled />
                 </div>

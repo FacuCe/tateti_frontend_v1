@@ -61,7 +61,6 @@ export interface User {
   id: string
   name: string
   login: string
-  permissions: string[]
 }
 
 export async function reloadCurrentUser(): Promise<User> {
